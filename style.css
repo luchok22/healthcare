@@ -1,0 +1,601 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Montserrat:wght@300&family=Playfair+Display:wght@400;600;700&family=Poppins&family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.conteiner{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.search{
+    border-radius: 8px;
+    width: 35px;
+}
+header nav{
+    margin-left: 400px;
+    display: flex;
+    width: 25%;
+    justify-content: flex-end;
+    justify-content: space-between;
+}
+.main{
+    background-image: url(./img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1349px;
+    height: 880px;
+    font-family: 'Poppins', sans-serif;
+}
+.heal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+.right button{
+    padding: 10px 30px;
+    background: #40A3F8;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    width: 142px;
+}
+nav a{
+    text-decoration: none;
+    color: #6E5F5F;
+}
+a:hover{
+    color: #40A3F8;
+}
+.heal h1{
+    color: #40A3F8;
+    font-size: 31.64px;
+}
+.input input{
+    padding-top: 17px;
+    padding-bottom: 18px;
+    padding-left: 30px;
+    padding-right: 72px;
+    border: none;
+}
+.input select{
+    padding-top: 17px;
+    padding-bottom: 18px;
+    padding-left: 50px;
+    padding-right: 56px;
+    border: none;
+}
+#doc{
+    color: #40A3F8;
+}
+.input{
+    margin-top: 325px;
+    display: inline-block;
+}
+.input h1{
+    font-size: 48px;
+}
+.input p{
+    color: rgba(117, 117, 117, 0.46);
+}   
+main .conteiner{
+    height: 20vh;
+}
+
+.things{
+  font-family: "Roboto";
+  display: flex;
+  justify-content: space-evenly;  
+}
+#easy{
+    font-family: "Roboto";
+    margin-top: 75px;
+    margin-left: 390px;
+    font-size: 42px;
+    margin-bottom: 68px;
+}
+.things img{
+    margin-left: 70px;
+}
+.things div h1{
+    margin-left: 50px;
+}
+.things div p{
+    line-height: 20px;
+    text-align: center;
+    font-family: "Roboto";
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 12px;
+}
+.things h1{
+    margin-bottom: 21px;
+}
+.things{
+    margin-bottom: 79px;
+}
+.comments{
+    font-size: 1.5em;
+    font-family: "Roboto";  
+}
+.comments h1{
+    margin-bottom: 24px;
+}
+.comments p{
+    color: #3D3D3FB2;
+    margin-bottom: 15px;
+}
+.comments button{
+    margin-left: 25px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-size: 16px;
+    background-color:   #40A3F8;
+}
+.advantages{
+    width: 105%;
+    display: flex;
+    justify-content: space-between;
+     margin-top: 75px;
+     font-family: "Roboto";
+     margin-left: 1px;
+}
+.parent .conteiner>div{
+    display: flex;
+    justify-content: space-evenly;
+}
+.BEST{
+    margin-top: 80px;
+    margin-left: 80px;
+}
+.smail{
+    margin-left: 10px;
+}
+.cardi{
+    background: rgba(0, 0, 0, 0.05);
+    padding-top: 80px;
+    width: 349px;
+    height: 316px;
+}
+.pul{
+    background: rgba(0, 0, 0, 0.05);
+    padding-top: 70px;
+    width: 349px;
+    height: 316px;
+}
+.medi{
+    background: rgba(0, 0, 0, 0.05);
+    width: 349px;
+    padding-top: 65px;
+    height: 316px;
+}
+.cardi img{
+    padding-left: 120px;
+}
+.cardi h1{
+    padding-left: 60px;
+}
+.pul img{
+    padding-left: 130px;
+}
+#news{
+    color: black;
+    font-weight: 700;
+}
+#cate{
+    color: black;
+    font-weight: 700;
+}
+#about{
+    color: black;
+    font-weight: 700;
+}
+.pul h1{
+    padding-left: 60px;
+}
+.medi img{
+    padding-left: 130px;
+}
+.medi h1{
+    padding-left: 60px;
+}
+.our{
+    margin-left: 300px;
+    margin-top: 180px;
+    font-family: "Roboto";
+}
+.our h1{
+   margin-left: 120px;
+}
+.our p{
+    text-align: center;
+    line-height: 30px;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-right: 350px;
+}
+.our h1{
+    font-size: 42px;
+}
+.advantages2 h1{
+    margin-top: 18px;
+    margin-bottom: 25px;
+}
+.advantages2 p{
+    text-align: center;
+    line-height: 22px;
+    font-size: 14px;
+}
+#nav{
+    margin-top: 95px;
+    margin-left: 470px;
+}
+.strelka{
+    margin-left: 390px;
+    margin-top: 120px;
+    font-family: "Roboto";
+}
+.strelka h1{
+    font-size: 42px;
+    margin-bottom: 47px;
+    margin-left:50px;
+}
+.strelka p{
+    font-size: 18px;
+    line-height: 30px;
+     margin-right: 400px;
+    text-align: center;
+}
+.strelka img{
+    margin-left: 250px;
+    margin-bottom: 16px;
+}
+.dentist{
+    width: 247px;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 50px;
+    width: 90%;
+}
+.dentists button{
+    color: white;
+    width: 195px;
+    height: 47px;
+    border: none;
+    background: #40A3F8;
+    font-family: "Roboto";
+    font-size: 18px;
+    margin-left: 560px;
+}
+.mobiles .conteiner>div{
+    display: flex;
+    justify-content: space-evenly;
+}
+.lookdiv{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.mobiles{
+    margin-top: 220px;
+}
+.mobile{
+    font-family: "Roboto";
+    margin-top: 220px;
+}
+.mobile h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.mobile p{
+    margin-bottom: 38px;
+    font-size: 18px;
+    line-height: 30px;
+}
+.look{
+    margin-top: 120px;
+}
+.healtcar h1{
+    font-style: normal;
+font-weight: 1000;
+font-size: 31.635px;
+line-height: 47px;
+/* identical to box height, or 149% */
+
+letter-spacing: 1px;
+
+color: #40A3F8;
+}
+.look h1{
+    margin-bottom: 90px;
+    margin-left: 400px;
+    font-size: 42px;
+    font-family: "Roboto";
+}
+.look img{
+    margin-left: 10px;
+    width: 1300px;
+}
+.smail{
+    background-image: url(./img/subscribe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1270px;
+    height: 500px;
+    margin-left: 50px;
+    margin-top: 96px;
+}
+.comments3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    font-family: "Roboto";
+}
+.comments3 p{
+    margin-bottom: 25px;
+    color:     #646464;
+    font-size: 15px;
+}
+.healtcar h1{
+    color: #40A3F8;
+    font-size: 31.64px;
+    margin-bottom: 12px;
+}
+.comments3 input{
+    width: 292px;
+    height: 40px;
+    padding: 20px 12px;
+}
+
+.subs{
+    margin-top: 12px;
+}
+.subs button{
+    width: 292px;
+    height: 40px;
+    border: none;
+    background: #40A3F8;
+    color: white;
+    font-size: 14px;
+}
+#id{
+    margin-bottom: 30px;
+}
+.input p{
+    margin-bottom: 35px;
+}
+.menu{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 576px) {
+    @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Montserrat:wght@300&family=Playfair+Display:wght@400;600;700&family=Poppins&family=Roboto:wght@300&display=swap');
+    body{
+        font-family: "Roboto";
+    }
+    header nav{
+        display: none;
+    }
+    header button{
+        display: none;
+    }
+    .smail{
+        display: none;
+    }
+    .dentist{
+        display: none;
+    }
+    .lookdiv{
+        display: flex;
+        flex-direction: column;
+        }
+        .smail{
+            display: none;
+        }
+        .dentist{
+            display: none;
+        }
+        .main{
+            width: 480px;
+        }
+        .lookdiv{
+            display: flex;
+            flex-direction: column;
+        }
+        .lookdiv img{
+            width: 600px;
+        }
+        .comments{
+            display: flex;
+            flex-direction: column;
+        }
+        .things{
+            display: flex;
+            flex-direction: column;
+            margin-left: 70px;
+        }
+        .mockup{
+            display: flex;
+            flex-direction: column;
+        }
+        .menu{
+            display: inline-block;
+            width: 70px;
+            margin-top: 10px;
+            margin-left: 110px;
+            margin-right: 330px;
+        }
+        .conteiner{
+           width: 95%;
+        }
+        .heal h1{
+            display: flex;
+            font-size: 35px;
+            width: 100%;
+        }
+        .input{
+            margin-top: 80px;
+        }
+        .input h1{
+            text-align: center;
+            font-size: 40px;
+        }
+        .input p{
+            width: 100%;
+            text-align: center;
+            font-size: 30px;
+            line-height: 33px;
+            margin-top: 10px;
+        }
+        .input input{
+            width: 400px;
+            font-size: 30px;
+        }    
+        .input select{
+            width: 300px;
+            margin-top: 10px;
+            font-size: 20px;
+        }
+        #easy{
+            margin-left: 70px;
+        }
+        .things h1{
+            width: 100%;
+            font-size: 30px;
+        }
+        .things div p{
+            width: 100%;
+            font-size: 25px;
+            line-height: 25px;
+        }
+        .things div img{
+            width: 150px;
+            margin-left: 100px;
+        }
+        .comments>img{
+              width: 400px;
+              height: 400px;
+              margin-top: 80px;
+        }
+        .our{
+            margin-top: 80px;
+            margin-left: 10px;
+        }
+        .our h1{
+            width: 100%;
+            margin-left: 100px;
+        }
+        .our p{
+            width: 100%;
+            text-align: center;
+            font-size: 25px;
+            line-height: 25px;
+            margin-left: 20px;
+        }
+        .advantages{
+            display: flex;
+            margin-left: 35px;
+            flex-direction: column;
+        }
+        .advantages div h1{
+            font-size: 30px;
+            width: 100%;
+            margin-bottom: 5px;
+        }
+        .advantages div p{
+            width: 100%;
+            font-size: 23px;
+            line-height: 23px;
+        }
+        #nav{
+            margin-left: 100px;
+        }
+        .pul{
+           margin-top: 15px;
+           margin-bottom: 15px;
+        }
+        .strelka{
+            margin-left: 10px;
+        }
+        .strelka h1{
+            width: 100%;
+            font-size: 40px;
+        }
+        .dentists button{
+            margin-left: 60px;
+            width: 300px;
+            margin-top: 15px;
+            font-size: 25px;
+        }
+        .strelka img{
+            margin-left: 80px;
+            width: 200px;
+        }
+        .strelka p{
+            width: 100%;
+            font-size: 25px;
+            line-height: 25px;
+            text-align: center;
+        }
+        .mobiles{
+            margin-left: 60px;
+            margin-top: 80px;
+        }
+        .mockup>img{
+            width: 400px;
+            height: 400px;
+        }
+        .mobile{
+            margin-top: 40px;
+        }
+        .mobile h1{
+            width: 100%;
+            margin-left: 10px;
+            text-align: center;
+            font-size: 40px;
+        }
+        .mobile p{
+            width: 100%;
+            font-size: 25px;
+            line-height: 25px;
+            text-align: center;
+        }
+        .mobile img{
+            width: 370px;
+        }
+        .look h1{
+            width: 100%;
+            text-align: center;
+            margin-left: 40px;
+        }
+        .lookdiv img{
+            width: 380px;
+            height: 380px;
+        }
+        .comments3{
+            display: flex;
+            flex-direction: column;
+        }
+        .comments3 h1{
+            width: 100%;
+            font-size: 50px;
+        }
+        .comments3 p{
+            font-size: 30px;
+        }
+}
