@@ -116,8 +116,11 @@ main .conteiner{
 .things img{
     margin-left: 70px;
 }
+.things div{
+    text-align: left;
+}
 .things div h1{
-    margin-left: 50px;
+    text-align: center;
 }
 .things div p{
     line-height: 20px;
@@ -144,7 +147,6 @@ main .conteiner{
     margin-bottom: 15px;
 }
 .comments button{
-    margin-left: 25px;
     border: none;
     width: 200px;
     height: 50px;
@@ -189,15 +191,6 @@ main .conteiner{
     padding-top: 65px;
     height: 316px;
 }
-.cardi img{
-    padding-left: 120px;
-}
-.cardi h1{
-    padding-left: 60px;
-}
-.pul img{
-    padding-left: 130px;
-}
 #news{
     color: black;
     font-weight: 700;
@@ -209,15 +202,6 @@ main .conteiner{
 #about{
     color: black;
     font-weight: 700;
-}
-.pul h1{
-    padding-left: 60px;
-}
-.medi img{
-    padding-left: 130px;
-}
-.medi h1{
-    padding-left: 60px;
 }
 .our{
     display: flex;
@@ -237,21 +221,22 @@ main .conteiner{
 .our h1{
     font-size: 42px;
 }
-.advantages div h1{
-    margin-left: 50px;
-}
 .advantages2 h1{
     margin-top: 18px;
     margin-bottom: 25px;
+}
+.advantages{
+    text-align: center;
 }
 .advantages2 p{
     text-align: center;
     line-height: 22px;
     font-size: 14px;
 }
-#nav{
-    margin-top: 95px;
-    margin-left: 470px;
+.navbar{
+    display: flex;
+    justify-content: center;
+    margin: 10vh 0;
 }
 .strelka{
     width: 100%;
@@ -385,7 +370,12 @@ color: #FFFFFF;
     color:     #646464;
     font-size: 15px;
 }
+.smail div a{
+    font-weight: 700;
+    color: #40A3F8;
+}
 .healtcar h1{
+    font-weight: 700;
     color: #40A3F8;
     font-size: 31.64px;
     margin-bottom: 12px;
