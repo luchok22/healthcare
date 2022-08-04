@@ -108,7 +108,8 @@ main .conteiner{
 #easy{
     font-family: "Roboto";
     margin-top: 75px;
-    margin-left: 390px;
+    width: 100%;
+    text-align: center;
     font-size: 42px;
     margin-bottom: 68px;
 }
@@ -221,26 +222,25 @@ main .conteiner{
 .our{
     display: flex;
     flex-direction: column;
-    margin-left: 350px;
-    justify-content: center;
+    width: 100%;
+    text-align: center;
     margin-top: 180px;
     font-family: "Roboto";
 }
-.our h1{
-   margin-left: 100px;
-}
 .our p{
+    width: 100%;
     text-align: center;
     line-height: 30px;
     font-size: 18px;
     margin-top: 30px;
-    margin-right: 350px;
 }
 .our h1{
     font-size: 42px;
 }
-.advantages2 h1{
+.advantages div h1{
     margin-left: 50px;
+}
+.advantages2 h1{
     margin-top: 18px;
     margin-bottom: 25px;
 }
@@ -254,23 +254,26 @@ main .conteiner{
     margin-left: 470px;
 }
 .strelka{
-    margin-left: 390px;
+    width: 100%;
+    text-align: center;
     margin-top: 120px;
     font-family: "Roboto";
 }
 .strelka h1{
     font-size: 42px;
     margin-bottom: 47px;
-    margin-left:50px;
 }
 .strelka p{
     font-size: 18px;
     line-height: 30px;
-     margin-right: 400px;
+    width: 100%;
     text-align: center;
 }
+.imgss{
+    display: flex;
+    justify-content: center;
+}
 .strelka img{
-    margin-left: 250px;
     margin-bottom: 16px;
 }
 .dentist{
@@ -281,6 +284,10 @@ main .conteiner{
     margin-left: 50px;
     width: 90%;
 }
+.exp{
+    display: flex;
+    justify-content: center;
+}
 .dentists button{
     color: white;
     width: 195px;
@@ -289,7 +296,6 @@ main .conteiner{
     background: #40A3F8;
     font-family: "Roboto";
     font-size: 18px;
-    margin-left: 560px;
 }
 .mobiles .conteiner>div{
     display: flex;
@@ -332,13 +338,10 @@ color: #40A3F8;
 }
 .look h1{
     margin-bottom: 90px;
-    margin-left: 400px;
+    display: flex;
+    justify-content: center;
     font-size: 42px;
     font-family: "Roboto";
-}
-.look img{
-    margin-left: 10px;
-    width: 1300px;
 }
 .smail .conteiner{
     background-image: url(./img/women-doc.jpg);
@@ -413,8 +416,66 @@ color: #FFFFFF;
 .menu{
     display: none;
 }
-
-
+.background1{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.off{
+    
+    width: 30%;
+    height: 55vh;
+    background: rgba(255, 254, 254);
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #afafb4;
+    position: relative;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 75%;
+}
+.left.d{
+    width: 49%;
+}
+.card div div p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    background: linear-gradient(90.26deg, #47C2FF 0.21%, rgba(99, 203, 254, 0.65) 97.38%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+}
+.right.d2{
+    width: 100%;
+}
+.q2{
+    width: 50px;
+}
+.card>img{
+    width: 35%;
+    margin: 5px auto;
+}
+.left.d{ 
+    display: flex;
+    justify-content: space-between;
+}
+.leftd2{
+    justify-content: space-between;
+    display: flex;
+}
+.card>div p{
+    margin-top: 5px;
+}  
+.footerbottom{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
 
 
 
@@ -427,217 +488,166 @@ color: #FFFFFF;
 
 @media (max-width: 576px) {
     @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Montserrat:wght@300&family=Playfair+Display:wght@400;600;700&family=Poppins&family=Roboto:wght@300&display=swap');
-    body{
-        font-family: "Roboto";
-    }
-    header nav{
+    .lookdiv{
         display: none;
     }
-    header button{
+    header .conteiner nav{
         display: none;
     }
-    .smail{
+    header .conteiner .right{
         display: none;
+    }
+    .comments{
+        display: flex;
+        flex-direction: column;
+    }
+    .things{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .comments3{
+        flex-wrap: wrap;
+    }
+    .comments>img{
+        width: 100%;
+        height: 50vh;
+    }
+    .comments button{
+        width: 100%;
+        font-size: 30px;
+        margin-left: 1px;
+    }
+    .input input{
+        font-size: 24px;
+    }
+    .input select{
+        font-size: 20px;
+    }
+    .things div h1{
+        font-size: 30px;
+    }
+    .things div p{
+        font-size: 25px;
+        line-height: 25px;
+        margin-left: 54px;
+    }
+    .conteiner{
+       width: 95%; 
+    }
+    .our{
+        width: 100%;
+        text-align: center;
+    }
+    .advantages div h1{
+        font-size: 35px;
+        margin-left: 20px;
+    }
+    .advantages div p{
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .pul{
+        margin: 5vh 0;
+    }
+    .healtcar{
+        text-align: center;
+    }
+    .footerbottom{
+        flex-wrap: wrap;
+        margin: 2vh 0;
+        width: 80%;
+    }
+    .our h1{
+        font-size: 40px;
+    }
+    .our p{
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .menuh{
+        width: 100%;
+        justify-content: space-between;
+        display: flex;
+        height: 100%;
+        align-items: center;
+    }
+    .heal h1{
+        font-size: 50px;
+    }
+    .menu{
+        width: 10vh;
+        display: inline-block;
+    }
+    .main{
+        width: 110%;
+     }
+     .advantages{
+        display: flex;
+        flex-direction: column;
+     }
+    .strelka{
+        margin-left: 30px;
+    }
+    .dentists button{
+        margin-left: 30px;
+    }
+     #nav{
+        margin-left: 60px;
+     }
+    .fon{
+        display: none;
+    }
+    .mobiles{
+        margin-top: 2vh;
+    }
+    .background1{
+        flex-direction: column;
+    }
+    .background1 div{
+        width: 100%;
+    }
+    .smail .conteiner{
+        background-position: right;
+    }
+    .look h1{
+        margin-left: 50px;
+        text-align: center;
+        width: 60%;
+        font-size: 35px;
+    }
+    .mobile{
+        margin-top: 2vh;
+    }
+    main{
+        width: 100%;
+        display: flex;
+        height: fit-content;
+    }
+    .input{
+        width: 100%;
+        text-align: left;
+        margin-left: 8px;
+    }
+    .input h1{
+        font-size: 42px;
+    }
+    .mockup {
+        display: flex;
+        flex-direction: column;
+    }
+    .input p{
+        width: 100%;
+        font-size: 22px;
     }
     .dentist{
         display: none;
     }
-    .lookdiv{
-        display: flex;
-        flex-direction: column;
-        }
-        .smail{
-            display: none;
-        }
-        .dentist{
-            display: none;
-        }
-        .main{
-            width: 480px;
-        }
-        .lookdiv{
-            display: flex;
-            flex-direction: column;
-        }
-        .lookdiv img{
-            width: 600px;
-        }
-        .comments{
-            display: flex;
-            flex-direction: column;
-        }
-        .things{
-            display: flex;
-            flex-direction: column;
-            margin-left: 70px;
-        }
-        .mockup{
-            display: flex;
-            flex-direction: column;
-        }
-        .menu{
-            display: inline-block;
-            width: 70px;
-            margin-top: 10px;
-            margin-left: 110px;
-            margin-right: 330px;
-        }
-        .conteiner{
-           width: 95%;
-        }
-        .heal h1{
-            display: flex;
-            font-size: 35px;
-            width: 100%;
-        }
-        .input{
-            margin-top: 80px;
-        }
-        .input h1{
-            text-align: center;
-            font-size: 40px;
-        }
-        .input p{
-            width: 100%;
-            text-align: center;
-            font-size: 30px;
-            line-height: 33px;
-            margin-top: 10px;
-        }
-        .input input{
-            width: 400px;
-            font-size: 30px;
-        }    
-        .input select{
-            width: 300px;
-            margin-top: 10px;
-            font-size: 20px;
-        }
-        #easy{
-            margin-left: 70px;
-        }
-        .things h1{
-            width: 100%;
-            font-size: 30px;
-        }
-        .things div p{
-            width: 100%;
-            font-size: 25px;
-            line-height: 25px;
-        }
-        .things div img{
-            width: 150px;
-            margin-left: 100px;
-        }
-        .comments>img{
-              width: 400px;
-              height: 400px;
-              margin-top: 80px;
-        }
-        .our{
-            margin-top: 80px;
-            margin-left: 10px;
-        }
-        .our h1{
-            width: 100%;
-            margin-left: 100px;
-        }
-        .our p{
-            width: 100%;
-            text-align: center;
-            font-size: 25px;
-            line-height: 25px;
-            margin-left: 20px;
-        }
-        .advantages{
-            display: flex;
-            margin-left: 35px;
-            flex-direction: column;
-        }
-        .advantages div h1{
-            font-size: 30px;
-            width: 100%;
-            margin-bottom: 5px;
-        }
-        .advantages div p{
-            width: 100%;
-            font-size: 23px;
-            line-height: 23px;
-        }
-        #nav{
-            margin-left: 100px;
-        }
-        .pul{
-           margin-top: 15px;
-           margin-bottom: 15px;
-        }
-        .strelka{
-            margin-left: 10px;
-        }
-        .strelka h1{
-            width: 100%;
-            font-size: 40px;
-        }
-        .dentists button{
-            margin-left: 60px;
-            width: 300px;
-            margin-top: 15px;
-            font-size: 25px;
-        }
-        .strelka img{
-            margin-left: 80px;
-            width: 200px;
-        }
-        .strelka p{
-            width: 100%;
-            font-size: 25px;
-            line-height: 25px;
-            text-align: center;
-        }
-        .mobiles{
-            margin-left: 60px;
-            margin-top: 80px;
-        }
-        .mockup>img{
-            width: 400px;
-            height: 400px;
-        }
-        .mobile{
-            margin-top: 40px;
-        }
-        .mobile h1{
-            width: 100%;
-            margin-left: 10px;
-            text-align: center;
-            font-size: 40px;
-        }
-        .mobile p{
-            width: 100%;
-            font-size: 25px;
-            line-height: 25px;
-            text-align: center;
-        }
-        .mobile img{
-            width: 370px;
-        }
-        .look h1{
-            width: 100%;
-            text-align: center;
-            margin-left: 40px;
-        }
-        .lookdiv img{
-            width: 380px;
-            height: 380px;
-        }
-        .comments3{
-            display: flex;
-            flex-direction: column;
-        }
-        .comments3 h1{
-            width: 100%;
-            font-size: 50px;
-        }
-        .comments3 p{
-            font-size: 30px;
-        }
+    .things div img{
+        width: 60%;
+    }
+    #easy{
+        font-size: 38px;
+    margin-left: 20px;
+    }
 }
