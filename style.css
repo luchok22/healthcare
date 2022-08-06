@@ -487,157 +487,81 @@ color: #FFFFFF;
     header .conteiner .right{
         display: none;
     }
-    .comments{
-        display: flex;
-        flex-direction: column;
+    .main{
+        width: 100%;
+    }   
+    .input{
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 1px;
+        width: 100%;
+    }
+    .input input{
+        font-size: 15px;
+        width: 100%;
+    }
+    .input select{
+        margin-top: 2vh;
+        font-size: 15px;
+        width: 100%;
+    }
+    .fon{
+        display: none;
+    }
+    .conteiner{
+        width: 80%;
+    }
+    #easy{
+        width: 95%;
     }
     .things{
-        text-align: center;
-        display: flex;
         flex-direction: column;
     }
-    .comments3{
-        flex-wrap: wrap;
+    .comments{
+        flex-direction: column;
     }
     .comments>img{
         width: 100%;
         height: 50vh;
     }
-    .comments button{
-        width: 100%;
-        font-size: 30px;
-        margin-left: 1px;
+    .BEST{
+        width: 70%;
     }
-    .input input{
-        font-size: 24px;
-    }
-    .input select{
-        font-size: 20px;
-    }
-    .things div h1{
-        font-size: 30px;
-    }
-    .things div p{
-        font-size: 25px;
-        line-height: 25px;
-        margin-left: 54px;
-    }
-    .conteiner{
-       width: 95%; 
-    }
-    .our{
-        width: 100%;
-        text-align: center;
-    }
-    .advantages div h1{
-        font-size: 35px;
-        margin-left: 20px;
-    }
-    .advantages div p{
-        font-size: 20px;
-        line-height: 20px;
-    }
-    .pul{
-        margin: 5vh 0;
-    }
-    .healtcar{
-        text-align: center;
-    }
-    .footerbottom{
-        flex-wrap: wrap;
-        margin: 2vh 0;
-        width: 80%;
-    }
-    .our h1{
-        font-size: 40px;
-    }
-    .our p{
-        font-size: 25px;
-        line-height: 25px;
-    }
-    .menuh{
-        width: 100%;
-        justify-content: space-between;
-        display: flex;
-        height: 100%;
-        align-items: center;
-    }
-    .heal h1{
-        font-size: 50px;
-    }
-    .menu{
-        width: 10vh;
-        display: inline-block;
-    }
-    .main{
-        width: 110%;
-     }
-     .advantages{
-        display: flex;
+    .advantages{
         flex-direction: column;
-     }
-    .strelka{
-        margin-left: 30px;
-    }
-    .dentists button{
-        margin-left: 30px;
-    }
-     #nav{
-        margin-left: 60px;
-     }
-    .fon{
-        display: none;
-    }
-    .mobiles{
-        margin-top: 2vh;
-    }
-    .background1{
-        flex-direction: column;
-    }
-    .background1 div{
-        width: 100%;
-    }
-    .smail .conteiner{
-        background-position: right;
-    }
-    .look h1{
-        margin-left: 50px;
-        text-align: center;
-        width: 60%;
-        font-size: 35px;
-    }
-    .mobile{
-        margin-top: 2vh;
-    }
-    main{
-        width: 100%;
-        display: flex;
-        height: fit-content;
-    }
-    .input{
-        width: 100%;
-        text-align: left;
-        margin-left: 8px;
-    }
-    .input h1{
-        font-size: 42px;
-    }
-    .mockup {
-        display: flex;
-        flex-direction: column;
-    }
-    .input p{
-        width: 100%;
-        font-size: 22px;
     }
     .dentist{
         display: none;
     }
-    .things div img{
-        width: 60%;
+    .mockup{
+        flex-direction: column;
     }
-    #easy{
-        font-size: 38px;
-    margin-left: 20px;
+    .mockup>img{
+         width: 100%;
+         height: 50vh;
+    }
+    .mockup div img{
+        width: 100%;
+    }
+    .mobile{
+        width: 70%;
+    }
+    .look>h1{
+        width: 70%;
+    }
+    .background1{
+        flex-direction: column;
+    }
+    .off{
+        width: 70%;
+    }
+    .smail .conteiner{
+       width: 100%;
+    }
+    .comments3{
+        flex-direction: column;
+    }
+    .footerbottom{
+        flex-wrap: wrap;
     }
 }
